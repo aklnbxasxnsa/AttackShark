@@ -33,3 +33,12 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# AttackShark local dependencies, secrets, and runtime data
+.andromity/
+node_modules/
+.env
+.env.*
+!.env.example
+attackshark.db*
+*.tmp
